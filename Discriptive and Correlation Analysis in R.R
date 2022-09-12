@@ -4,7 +4,6 @@
 # health and demographic information of 502 participants
 
 
-
 # Importing data into R
 library(readxl)
 Prostate <- read_excel("D:/Analytics/Data/R Projects/WEEK 4/Prostate.xlsx")
@@ -74,7 +73,6 @@ summary(Prostate$dbp)
 summary(Prostate$hg)
 summary(Prostate$sz)
 summary(Prostate$sg)
-
 
 # Obtaining additional summary descriptive statistics (i.e., percentiles) on age, wt, sbp, dbp, hg, sz and sg 
 # using the describe() function from the Hmisc packgage.  
